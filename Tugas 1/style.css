@@ -1,0 +1,106 @@
+ .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      justify-content: flex-start;
+    }
+    .logo img {
+      width: 50px;
+      height: auto;
+    }
+    .topnav {
+      text-align: center;
+    }
+    .topnav a {
+      margin: 0 12px;
+    }
+    
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #3b2a20;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+body {
+  font-family: 'Raleway', Times, serif;
+  background-color: rgb(249, 248, 248);
+}
+
+h2 {
+  text-align: center;
+}
+
+table {
+width: 80%;
+margin: 20px auto;
+border-collapse: collapse; background-color: #ffffff; border-radius: 10px;
+overflow: hidden;
+}
+
+th, td {
+
+padding: 12px 20px;
+text-align: center;
+border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #076abc;
+  color: white;
+}
+
+form {
+background-color: #ffffff;
+padding: 25px;
+border-radius: 12px;
+width: 40%; 
+margin: 20px auto;
+text-align: center;
+}
+
+textarea{
+  text-align: center;
+}
+
+button{
+  text-align: center;
+  box-shadow: 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+button:hover{
+  background-color: #076abc;
+}
+div.scroll {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll img {
+  padding: 10px;
+}
+
+label {
+  color: #076abc;
+}
